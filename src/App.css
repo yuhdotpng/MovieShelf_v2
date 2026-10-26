@@ -184,7 +184,7 @@ body {
 }
 
 .favorite-button {
-  width: 100%;
+  width: 50%;
   padding: 0.75rem;
   background-color: #333;
   color: #ffffff;
@@ -194,6 +194,7 @@ body {
   font-size: 1rem;
   font-weight: bold;
   transition: all 0.3s;
+  display: inline;
 }
 
 .favorite-button:hover {
@@ -205,6 +206,31 @@ body {
   background-color: #e50914;
   border-color: #e50914;
 }
+
+.watchlist-button {
+  width: 50%;
+  padding: 0.75rem;
+  background-color: #333;
+  color: #ffffff;
+  border: 2px solid #555;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 0.3s;
+  display: inline;
+}
+
+.watchlist-button:hover {
+  background-color: #e50914;
+  border-color: #e50914;
+}
+
+.watchlist-button.watchlisted {
+  background-color: #e50914;
+  border-color: #e50914;
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
